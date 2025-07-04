@@ -51,11 +51,16 @@ npm install
 cp .env.example .env
 ### ※.env にDB接続情報を記載
 
+
 ### 4. DBマイグレーション
 npx prisma migrate dev --name init
 
 ### 5. サーバー起動
 npm run dev
+
+### 6. 起動確認URL
+サーバー起動後、以下URLでGraphQLサーバーにアクセスできます。
+http://localhost:4000/
 
 
 ## 認証方法
