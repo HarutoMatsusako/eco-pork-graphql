@@ -49,7 +49,7 @@ npm install
 
 ### 3. 環境変数設定
 cp .env.example .env
-## ※.env にDB接続情報を記載
+※.env にDB接続情報を記載
 例
 DATABASE_URL="file:./dev.db"
 JWT_SECRET="your-secret"
