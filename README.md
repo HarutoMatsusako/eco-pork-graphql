@@ -39,6 +39,26 @@
 Authorization: Bearer <your-jwt-token>
 ```
 
+## セットアップ
+
+# 1. リポジトリをクローン
+git clone https://github.com/HarutoMatsusako/eco-pork-graphql.git
+cd eco-pork-graphql
+
+# 2. 依存関係インストール
+npm install
+
+# 3. 環境変数設定
+cp .env.example .env
+# ※.env にDB接続情報を記載
+
+# 4. DBマイグレーション
+npx prisma migrate dev --name init
+
+# 5. サーバー起動
+npm run dev
+
+
 ## サンプルクエリ・ミューテーション
 
 ### 商品一覧取得
