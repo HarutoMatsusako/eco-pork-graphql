@@ -36,13 +36,7 @@ Notion: [https://www.notion.so/xxx](https://www.notion.so/Eco-Pork-2257a170b5f98
 - ユーザー登録
 - ユーザーログイン（JWT 認証）
 
-## 認証方法
 
-認証が必要な操作には、HTTP リクエストヘッダーに JWT トークンを設定してください：
-
-```
-Authorization: Bearer <your-jwt-token>
-```
 
 ## セットアップ
 
@@ -62,6 +56,15 @@ npx prisma migrate dev --name init
 
 ### 5. サーバー起動
 npm run dev
+
+
+## 認証方法
+
+認証が必要な操作には、HTTP リクエストヘッダーに JWT トークンを設定してください：
+
+```
+Authorization: Bearer <your-jwt-token>
+```
 
 
 ## サンプルクエリ・ミューテーション
