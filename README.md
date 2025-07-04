@@ -59,7 +59,7 @@ npx prisma migrate dev --name init
 npm run dev
 
 
-### サンプルクエリ・ミューテーション
+## サンプルクエリ・ミューテーション
 
 ### 商品一覧取得
 
