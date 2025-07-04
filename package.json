@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.0.1",
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.11.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  }
+}
