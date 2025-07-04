@@ -4,6 +4,11 @@
 
 豚肉 EC サイト用の GraphQL バックエンド API です。商品管理、在庫管理、注文管理、ユーザー管理機能を提供します。
 
+## 詳細設計ドキュメント
+
+Notion: [https://www.notion.so/xxx](https://www.notion.so/Eco-Pork-2257a170b5f980e49dc3d341b007ddee?source=copy_link)
+
+
 ## 機能一覧
 
 ### 1. 商品管理
